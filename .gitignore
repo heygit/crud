@@ -1,0 +1,55 @@
+target/
+logs/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+.apt_generated
+.classpath
+.class
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+# Node Files #
+node/
+node_modules/
+bower_components/
+npm-debug.log
+/npm-debug.log.*
+jspm_packages
+
+# Coverage #
+/coverage/
+
+# Typing #
+src/typings/tsd/
+typings/
+tsd_typings/
+
+# Dist #
+dist
+/public/__build__/
+/src/*/__build__/
+/__build__/**
+/public/dist/
+/src/*/dist/
+/dist/**
+/.awcache
+.webpack.json
+/compiled/
+dll/
+
+# Other #
+*.map
+*/src/main/*/src/app/*.js
